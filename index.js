@@ -55,7 +55,7 @@ const randomMessage = () => {
 const makeCommits = (n) => {
     if (n === 0) return;
 
-    const x = random.int(0, 52);
+    const x = random.int(0, 54);
     const y = random.int(0, 6);
 
     const date = moment()
@@ -84,5 +84,5 @@ const makeCommits = (n) => {
 
 };
 
-makeCommits(499);
+makeCommits(1);
 
